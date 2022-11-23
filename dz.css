@@ -371,3 +371,10 @@ span {
   top: -150px;
   left: 50px;
 }
+.ul {
+  counter-reset: section;
+}
+h2:before {
+  counter-increment: section;
+  content: "Section" counter(section) ": ";
+}
