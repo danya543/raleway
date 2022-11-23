@@ -366,3 +366,8 @@ span {
   width: 369px;
   height: 105px;
 }
+.fixed {
+  position: fixed;
+  top: -150px;
+  left: 50px;
+}
