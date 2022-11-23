@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/rale/Raleway-Regular.eot");
+  src: local("Raleway"), local("Raleway-Regular"),
+    url("fonts/rale/Raleway-Regular.eot?#iefix") format("eot"),
+    url("fonts/rale/Raleway-Regular.woff2") format("woff2"),
+    url("fonts/rale/Raleway-Regular.woff") format("woff"),
+    url("fonts/rale/Raleway-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans"),
+    url("fonts/Open_sans/open-sans-v34-latin-regular.eot") format("eot"),
+    url("fonts/Open_sans/open-sans-v34-latin-regular.ttf") format("ttf"),
+    url("fonts/Open_sans/open-sans-v34-latin-regular.woff") format("woff"),
+    url("fonts/Open_sans/open-sans-v34-latin-regular.woff2") format("woff2");
+}
+.ourcustomers__h1 {
+  width: 992px;
+  height: 120px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.ourcustomers__p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #86878b;
+  width: 992px;
+}
+.ourcustomers__customers {
+  display: flex;
+  flex-direction: row;
+  width: 992px;
+  justify-content: space-between;
+}
+.ourcustomers__customers__costomer {
+  width: 317px;
+  height: 368px;
+  box-sizing: border-box;
+  margin-top: 32px;
+}
+.ourcustomers__customers__customer__block {
+  width: 317px;
+  height: 200px;
+  background: #e2e2e2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.ourcustomers__customers__costomer__block__p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0 33px;
+  color: #86878b;
+}
+.ourcustomers__customers__costomer__img {
+  margin-left: 60px;
+}
+.ourcustomers__customers__costomer__man {
+  margin-top: 46px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 317px;
+  height: 63px;
+}
+.ourcustomers__customers__costomer__man__inf__h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  width: 230px;
+}
+.ourcustomers__customers__costomer__man__inf__p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  width: 230px;
+}
