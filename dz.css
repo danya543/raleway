@@ -722,6 +722,8 @@ nav div {
 textarea {
   width: 570px;
   height: 225px;
+  border: 0;
+  border-bottom: 1px solid #bdbdbd;
 }
 .contact button {
   width: 370px;
